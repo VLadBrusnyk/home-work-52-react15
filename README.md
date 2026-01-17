@@ -23,50 +23,53 @@
 4. Перегляд збірки:
    npm run preview
 
+### Структура проєкту
+
+```
 my-react-app/
 ├── src/
-│ ├── app/
-│ │ ├── store.js # Основний Redux store
-│ │ └── hooks.js # Кастомні хуки для роботи з Redux
-│ ├── components/ # UI-компоненти
-│ │ ├── Header.jsx
-│ │ ├── Footer.jsx
-│ │ └── Button.jsx
-│ ├── features/ # Функціональні модулі (зрізи)
-│ │ └── posts/
-│ │ ├── api/
-│ │ │ └── postsApi.js
-│ │ ├── components/
-│ │ │ ├── PostCard.jsx
-│ │ │ ├── PostForm.jsx
-│ │ │ └── PostList.jsx
-│ │ ├── lib/
-│ │ │ └── helpers.js
-│ │ ├── model/
-│ │ │ └── postsSlice.js
-│ │ └── index.js
-│ ├── pages/ # Сторінки додатку
-│ │ ├── HomePage.jsx
-│ │ ├── PostPage.jsx
-│ │ ├── EditorPage.jsx
-│ │ └── NotFoundPage.jsx
-│ ├── services/ # Сервіси для роботи з API та storage
-│ │ ├── api/
-│ │ │ └── baseApi.js
-│ │ └── storage/
-│ │ └── localStorage.js
-│ ├── shared/
-│ │ └── styles/
-│ ├── layouts/
-│ │ └── MainLayout.jsx
-│ ├── routes/
-│ │ └── AppRoutes.jsx
-│ ├── assets/
-│ ├── App.jsx
-│ ├── main.jsx
-│ ├── App.css
-│ └── index.css
+│  ├── app/
+│  │  ├── store.js         # Основний Redux store
+│  │  └── hooks.js         # Кастомні хуки для роботи з Redux
+│  ├── components/         # UI-компоненти
+│  │  ├── Header.jsx
+│  │  ├── Footer.jsx
+│  │  └── Button.jsx
+│  ├── features/           # Функціональні модулі (зрізи)
+│  │  └── posts/
+│  │     ├── api/
+│  │     │  └── postsApi.js
+│  │     ├── components/
+│  │     │  ├── PostCard.jsx
+│  │     │  ├── PostForm.jsx
+│  │     │  └── PostList.jsx
+│  │     ├── lib/
+│  │     │  └── helpers.js
+│  │     ├── model/
+│  │     │  └── postsSlice.js
+│  │     └── index.js
+│  ├── pages/              # Сторінки додатку
+│  │  ├── HomePage.jsx
+│  │  ├── PostPage.jsx
+│  │  ├── EditorPage.jsx
+│  │  └── NotFoundPage.jsx
+│  ├── services/           # Сервіси для роботи з API та storage
+│  │  ├── api/
+│  │  │  └── baseApi.js
+│  │  └── storage/
+│  │     └── localStorage.js
+│  ├── shared/
+│  │  └── styles/
+│  ├── layouts/
+│  │  └── MainLayout.jsx
+│  ├── routes/
+│  │  └── AppRoutes.jsx
+│  ├── assets/
+│  ├── App.jsx
+│  ├── main.jsx
+│  ├── App.css
+│  └── index.css
 ├── package.json
 ├── README.md
 └── ...
-shared/ # спільні ресурси
+```
